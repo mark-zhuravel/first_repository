@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors Examples</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <p>
+        Cелектор тега
+    </p>
+
+    <hr>
+
+    <p class="class__selector">
+        Селектор класа
+    </p>
+
+    <hr>
+
+    <p id="id__selector">
+        Селектор ідентифікатора
+    </p>
+
+    <hr>
+
+    <p title="attribute__selector">
+        Селектор атрибуту
+    </p>
+
+    <hr>
+
+    <div class="context__selector">
+        <p>
+            Контекстний селектор 
+        </p>
+    </div>
+
+    <hr>
+
+    <section>
+        <p>
+            Дочірній селектор section
+        </p>
+        <aside>
+            <p>
+                Дочірній селектор але вже для aside
+            </p>
+        </aside>
+    </section>
+
+    <hr>
+
+    <div>
+        <h3 class="selector__sequence__first__element">
+            Послідовність селекторів (перший)
+        </h3>
+        <p>
+            Перший елемент послідовності селекторів (буде стилізован)
+        </p>
+        <p>
+            Другий елемент послідовності селекторів (не буде стилізован)
+        </p>
+    </div>
+
+    <hr>
+
+    <div>
+        <p>
+            Елемент перед послідовністю
+        </p>
+        <h3 class="selector__sequence">
+            Послідовність селекторів (всі)
+        </h3>
+        <p>
+            Перший елемент послідовності селекторів (буде стилізован)
+        </p>
+        <p>
+            Другий елемент послідовності селекторів (також буде стилізован)
+        </p>
+    </div>
+
+    <hr>
+
+    <div class="id__priority">
+        <p class="color__lime">
+        Перший елемент
+        </p>
+        <p class="color__lime" id="color__brown">
+            Другий елемент (Пріорітет айдішніка)
+        </p>
+        <p class="color__lime">
+            Третій елемент
+        </p>
+    </div>
+
+    <hr>
+
+    <div>
+        <a href="pages/about.html">Про нас</a>
+        <a href="pages/articles.html">Статті</a>
+        <a href="pages/contacts.html">Контакти</a>
+    </div>
+
+</body>
+</html>
+
