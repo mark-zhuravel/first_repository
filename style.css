@@ -1,0 +1,47 @@
+body {
+    font-size: 20px;
+}
+
+p {
+    color: red ;
+}
+
+.class__selector {
+    color: blue;
+}
+
+#id__selector {
+    color: green;
+}
+
+p[title="attribute__selector"] {
+    color: orange;
+}
+
+.context__selector p {
+    color: yellow;
+}
+
+section > p {
+    color: purple;
+}
+
+.selector__sequence__first__element + p {
+    color: aqua;
+}
+
+.selector__sequence ~ p {
+    color: palevioletred;
+}
+
+#color__brown {
+    color: brown ;
+}
+.color__lime {
+
+    color: lime;
+}
+
+a[href$="s.html"] {
+    color: gray;
+}
